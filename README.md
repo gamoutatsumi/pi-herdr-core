@@ -48,6 +48,8 @@ pi install /path/to/pi-herdr-core
 
 ## 開発
 
+- 開発環境は `nix develop` で入ります（`pi`・`nodejs` 24・`typescript`
+  が使えます）。
 - TypeScript の拡張は jiti 経由でそのまま読み込まれるため、ビルドは
   不要です。
 - スモークテスト（Node 24+。拡張を fake な ExtensionAPI で駆動し、
