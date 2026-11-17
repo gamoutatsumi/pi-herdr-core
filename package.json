@@ -1,0 +1,17 @@
+{
+  "name": "pi-herdr-core",
+  "version": "0.1.0",
+  "description": "Pi package for using herdr-core (hc) efficiently: a condensed herdr-core skill plus an hc_manual tool that returns the live hc / herdr-app manual.",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./extensions/herdr-core.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  }
+}
